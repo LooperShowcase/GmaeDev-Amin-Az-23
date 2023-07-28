@@ -14,6 +14,7 @@ fetch("./data/cards.json")
         console.log(cards)
         cards = [...data, ...data]
         shuffleCards();
+        generateCards();
     }
 
     )
